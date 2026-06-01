@@ -2,7 +2,7 @@ package basicprograms.whileloop;
 
 import java.util.Scanner;
 
-public class PositiveNumbers {
+public class  PositiveNumbers {
     static void main(String[] args) {
         int sum = 0;
         Scanner sc = new Scanner(System.in);

@@ -1,4 +1,4 @@
-package encapsulation;
+ package encapsulation;
 
 public class Product {
     private String name;
@@ -19,23 +19,20 @@ public class Product {
         this.name = name;
     }
 
-    public double getPrice()
-    {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(double price)
-    {
+    public void setPrice(double price) {
         this.price = price;
     }
-    public int getSize()
-    {
-        return size=size;
-    }
-    public void setSize(int size)
 
-    {
-        this.size=size;
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
     }
 }
 
