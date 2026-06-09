@@ -20,6 +20,7 @@ public class ListImplementation {
         l3.add("Kartik");
         l.addAll(l3);
         System.out.println(l);
-
+        l.iterator();
+        System.out.println(l);
     }
 }
