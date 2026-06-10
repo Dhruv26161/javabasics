@@ -10,6 +10,13 @@ public class HaspMapiterator {
         str.put("department","BCA");
         str.put("College","Unknown");
         System.out.println(str);
-        str.forEach();
+        for (String m:str.keySet())
+        {
+            System.out.println(m);
+        }
+        for (String m1: str.values())
+        {
+            System.out.println(m1);
+        }
     }
 }
