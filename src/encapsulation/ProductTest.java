@@ -8,7 +8,6 @@ public class ProductTest {
         p.getPrice();
         System.out.println("Name is...."+p.getName());
         System.out.println(p.getSize());
-        System.out.println(p.getPrice()
-        );
+        System.out.println(p.getPrice());
     }
 }

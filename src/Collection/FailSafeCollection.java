@@ -10,7 +10,8 @@ public class FailSafeCollection {
         lst.add(23);
         lst.add(34);
         lst.add(45);
-        for (Integer integer: lst) {
+        for (Integer integer: lst)
+        {
             System.out.println(lst);
             lst.add(67);
         }

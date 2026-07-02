@@ -12,5 +12,6 @@ public class HashMap {
         m.put("Name 3", "Deepak");
         m.put("id","15");
         System.out.println(m);
+
     }
 }
