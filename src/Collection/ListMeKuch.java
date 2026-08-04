@@ -38,7 +38,6 @@ public class ListMeKuch {
 
                 fruits.clear();
                 System.out.println(fruits);
-
                 fruits.hashCode();
         System.out.println(fruits);
     }
